@@ -1,0 +1,283 @@
+{
+  "results": {
+    "tool": {
+      "name": "jest"
+    },
+    "summary": {
+      "tests": 24,
+      "passed": 24,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1782733467352,
+      "stop": 1782733471518
+    },
+    "tests": [
+      {
+        "name": "[0] sanity check",
+        "duration": 152,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js"
+      },
+      {
+        "name": "server.js [GET] /api/accounts [1] can get the correct number of accounts",
+        "duration": 66,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [GET] /api/accounts"
+      },
+      {
+        "name": "server.js [GET] /api/accounts [2] gets the empty array if there are no accounts",
+        "duration": 57,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [GET] /api/accounts"
+      },
+      {
+        "name": "server.js [GET] /api/accounts/:id [3] can get the correct account",
+        "duration": 46,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [GET] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [GET] /api/accounts/:id [4] responds with a 404 if the id does not exist",
+        "duration": 38,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [GET] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [GET] /api/accounts/:id [5] responds with \"account not found\" if the id does not exist",
+        "duration": 39,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [GET] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [6] creates a new account in the database",
+        "duration": 71,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [7] responds with a 201 and the newly created account",
+        "duration": 51,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [8] trims the leading and trailing whitespace in the name of the new account",
+        "duration": 51,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [9] responds with a 400 and proper error if name or budget are undefined",
+        "duration": 49,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [10] responds with a 400 and proper error if name is too short or too long after trimming it",
+        "duration": 50,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [11] responds with a 400 and proper error if budget cannot be coerced into a number",
+        "duration": 43,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [12] responds with a 400 and proper error if budget is negative or too big",
+        "duration": 46,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [POST] /api/accounts [13] responds with a 400 and proper error if name already exists in the db",
+        "duration": 42,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [POST] /api/accounts"
+      },
+      {
+        "name": "server.js [PUT] /api/accounts/:id [14] updates the account in the database",
+        "duration": 48,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [PUT] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/accounts/:id [15] responds with a 200 and the newly updated account",
+        "duration": 48,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [PUT] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/accounts/:id [16] responds with a 404 if the id does not exist",
+        "duration": 38,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [PUT] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/accounts/:id [17] responds with a 400 and proper error if name or budget are undefined",
+        "duration": 48,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [PUT] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/accounts/:id [18] responds with a 400 and proper error if name is too short or too long after trimming",
+        "duration": 51,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [PUT] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/accounts/:id [19] responds with a 400 and proper error if budget cannot be coerced into a number",
+        "duration": 46,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [PUT] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/accounts/:id [20] responds with a 400 and proper error if budget is negative or too big",
+        "duration": 45,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [PUT] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [DELETE] /api/accounts/:id [21] can delete the correct account",
+        "duration": 49,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [DELETE] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [DELETE] /api/accounts/:id [22] responds with a 404 if the id does not exist",
+        "duration": 40,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [DELETE] /api/accounts/:id"
+      },
+      {
+        "name": "server.js [DELETE] /api/accounts/:id [23] responds with \"account not found\" if the id does not exist",
+        "duration": 38,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\selen\\OneDrive\\Masaüstü\\Workintech\\fsweb-s14g1-node-db-project-1\\codegrade_mvp.test.js > server.js > [DELETE] /api/accounts/:id"
+      }
+    ]
+  }
+}
